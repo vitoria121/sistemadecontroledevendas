@@ -17,7 +17,7 @@
 ### Objetivos do sistema: 
 *   Controlar as vendas feitas a prazo;
 *   Auxiliar na organização do estabelecimento.
-*   
+  
 
 ### Objetivos da reunião:
 *    Analisar a situação atual do comércio;
