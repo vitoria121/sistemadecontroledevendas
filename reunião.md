@@ -36,7 +36,7 @@
 | Ação                                      | Responsável  |
 | ----------------------------------------- | ------------ |
 | Criar cadastro para clientes              | @Mariane |
-| Oragizar os nomes em ordem alfabética     | @Lauanda |
+| Organizar os nomes em ordem alfabética     | @Lauanda |
 | Registrar as vendas e as datas em que foram efetuadas | @Vitória |
 | Registrar a forma de pagamento escolhida pelo cliente | @Glendah |
 | Realizar somatória das vendas e mostrar o total efetuado | @Luciane |
