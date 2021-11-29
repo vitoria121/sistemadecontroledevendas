@@ -8,10 +8,10 @@
 ### O que estava planejado
 | Atividade                                                    | Atribuição                         |
 | ------------------------------------------------------------ | ---------------------------------- |
-| 3 Reuniões com os componentes do grupo. | `@Mariane`, `@Luciane`, `@Lauanda`, 'Vitória', 'Glendah'  |
-| Reunião com o cliente. | `@Mariane`, `@Luciane`, `@Lauanda`, 'Vitória', 'Glendah',`@Francisco'    |
-| Organização da documentação proposta pelo professor| `@Mariane`, `@Luciane`, `@Lauanda`, 'Vitória', 'Glendah'|
-| Executar 40% das funcionalidades | `@Mariane`, `@Luciane`, `@Lauanda`, 'Vitória', 'Glendah'|
+| 3 Reuniões com os componentes do grupo. | `@Mariane`, `@Luciane`, `@Lauanda`, '@Vitória', '@Glendah'  |
+| Reunião com o cliente. | `@Mariane`, `@Luciane`, `@Lauanda`, '@Vitória', '@Glendah',`@Francisco'    |
+| Organização da documentação proposta pelo professor| `@Mariane`, `@Luciane`, `@Lauanda`, '@Vitória', '@Glendah'|
+| Executar 40% das funcionalidades | `@Mariane`, `@Luciane`, `@Lauanda`, '@Vitória', '@Glendah'|
 
 
 ### O que foi feito
