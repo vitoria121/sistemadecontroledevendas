@@ -22,6 +22,8 @@ public class fornecedor {
 		public static void setCpf(int cpf) {
 			fornecedor.cpf = cpf;
 		}
-		
+	        public void DeletarFornecedor(fornecedor fornecedor) {
+			System.out.println("Deletando fornecedor...");
+		}
 	
 }
