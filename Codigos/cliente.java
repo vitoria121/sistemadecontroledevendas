@@ -28,5 +28,13 @@ public class cliente {
 		this.endereco = endereco;
 	}
 	
-	
+	// Alteração dos dados do cliente //
+    
+    public void Alteração (String nome, String CPF, String endereco)  {
+        this.nome = nome;
+        this.CPF = CPF;
+        this.endereco = endereco;
+        
+    }
+    
 }
