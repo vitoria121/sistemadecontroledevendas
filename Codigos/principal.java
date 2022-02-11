@@ -11,8 +11,8 @@ public class principal {
 		HashMap<String, cliente> clientes = new HashMap<String, cliente>();
 		HashMap<String, fornecedor> fornecedores = new HashMap<String, fornecedor>();
 		
-		System.out.println ("Ol·, seja bem-vindo(a) ao programa controle de vendas!");
-		System.out.println ("Escolha uma opÁ„o: ");
+		System.out.println ("Ol√°, seja bem-vindo(a) ao programa controle de vendas!");
+		System.out.println ("Escolha uma op√ß√£o: ");
 		System.out.println ("[1] Cadastrar novo cliente.");
 		System.out.println ("[2] Alterar cliente.");
 		System.out.println ("[3] Cadastrar Fornecedor.");
@@ -35,16 +35,16 @@ public class principal {
 		  		  NovoCliente.setNome(entrada.next());
 		  		  System.out.println ("Digite o CPF do cliente:");
 		  		  NovoCliente.setCPF(entrada.next());
-		  		  System.out.println ("Digite o EndereÁo do cliente:");
+		  		  System.out.println ("Digite o Endere√ßo do cliente:");
 		  		  NovoCliente.setEndereco(entrada.next());
 		  		  System.out.println ("cliente cadastrado com sucesso!");
 		  		  clientes.put( NovoCliente.getCPF(), NovoCliente);
 		  		  break;
 		  		  
 		      case 2:
-		    	  System.out.println ("FaÁa a alteraÁ„o nos dados do cliente.");
-		    	  cliente.AlteraÁ„o();
-		    	  System.out.println ("A alteraÁ„o nos dados do cliente concluida");
+		    	  System.out.println ("Fa√ßa a altera√ß√£o nos dados do cliente.");
+		    	  cliente.Altera√ß√£o();
+		    	  System.out.println ("A altera√ß√£o nos dados do cliente concluida");
 		    	  break;
 		    
 		      case 3:
@@ -58,8 +58,12 @@ public class principal {
 		  	      System.out.println ("Fornecedor cadastrado com sucesso!");
 		  	      fornecedores.put( Novofornecedor.getNome(), Novofornecedor);
 		  	      break;
-		  	
-		  		  
+				
+		  	Case 4: 
+				System.out.println ("Fa√ßa a altera√ß√£o nos dados do fornecedor.");
+				fornecedor.Altera√ß√£o();
+				System.out.println ("Altera√ß√£o nos dados do fornecedor conclu√≠da");
+		  		break;
 		    	  
 		    	 
 		    	  
