@@ -32,3 +32,9 @@ public class mercadoria {
 		}
 			    
 		}
+
+// Deletar mercadoria
+
+		public void DeletarMercadoria(mercadoria mercadoria) {
+		    System.out.println("Deletando mercadoria");
+		}
