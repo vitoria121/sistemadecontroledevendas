@@ -9,7 +9,7 @@ public class vendas {
 	private double valorvenda;
 	
 	
-	//MÉTODOS:
+	//MÃ‰TODOS:
 	public String getDatadavenda() {
 		return datadavenda;
 	}
@@ -33,6 +33,10 @@ public class vendas {
 	
 	public void setMercadoriavendida(String mercadoriavendida) {
 		this.mercadoriavendida = mercadoriavendida;
+		
+		
+		
+
 	}
 	
 	public double getValorvenda() {
@@ -43,6 +47,14 @@ public class vendas {
 		this.valorvenda = valorvenda;
 	}
 	
+	}
+		
+	    public void alterar venda (alterar venda alterar venda) {
+			System.out.println("alterar venda");
+		}
+	
+}
+
 	
 
 }
