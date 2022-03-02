@@ -10,6 +10,9 @@ public class principal {
 		Scanner entrada = new Scanner (System.in);
 		HashMap<String, cliente> clientes = new HashMap<String, cliente>();
 		HashMap<String, fornecedor> fornecedores = new HashMap<String, fornecedor>();
+		HashMap<String, vendas> Venda= new HashMap<String, vendas>();
+		HashMap<String, mercadoria> mercadoria= new HashMap<String, mercadoria>();
+		int numero;
 		
 		System.out.println ("Olá, seja bem-vindo(a) ao programa controle de vendas!");
 		System.out.println ("Escolha uma opção: ");
@@ -26,7 +29,7 @@ public class principal {
 		System.out.println ("[11] Deletar venda");
 		System.out.println ("[12] visualizar clientes, fornecedores, mercadorias e vendas");
 		System.out.println ("[13] Encerrar");
-		int numero = entrada.nextInt();
+		numero = entrada.nextInt();
 		   
 		switch (numero) {
 		      case 1:
@@ -64,12 +67,49 @@ public class principal {
 				fornecedor.Alteração();
 				System.out.println ("Alteração nos dados do fornecedor concluída");
 		  		break;
+				
+				
+				
+			case 6:
+		  	          mercadoria Novamercadoria = new mercadoria ();
+		    	          System.out.println ("Digite o nome da mercadoria:");
+		    	          Novamercadoria.setNome(entrada.next()); 
+		  		  System.out.println ("Digite o preço da mercadoria: ");
+		  		  Novamercadoria.setPreco( entrada.nextFloat()); 
+		  		  System.out.println ("Digite a quantidade da mercadoria: ");
+		  		  Novamercadoria.setQuantidade(entrada.nextInt());
+		  		  System.out.println ("Mercadoria Cadastrada com sucesso!" );
+		  		  mercadoria.put( Novamercadoria.getNome(), Novamercadoria);
+		  		  break;
+		  		  
+		  	      
+		  	      
+		  	      case 9:
+		  	          vendas Novavenda = new vendas ();
+		    	          System.out.println ("Digite o nome do cliente que realizou a compra:");
+		    	          Novavenda.setNomedocomprador(entrada.next());
+		  		  System.out.println ("Digite a data que a venda foi realizada: ");
+		  		  Novavenda.setDatadavenda(entrada.next()); 
+		  		  System.out.println ("Digite a mercadoria que foi vendida: ");
+		  		  Novavenda.setMercadoriavendida(entrada.next());
+		  		  System.out.println ("Digite o valor da venda:" );
+		  		  Novavenda.setValorvenda(entrada.nextDouble());
+		  		  System.out.println ("venda Cadastrada com sucesso!" );
+		  		  Venda.put( Novavenda.getNomedocomprador(), Novavenda);
+		  		  break; 
+		}
+		
+		  		  
+		  		  
+		} while (numero != 13);
+		System.out.println ("Encerrando o programa!" );
+		System.out.println ("Muito obrigado, até a próxima!" );
 		    	  
 		    	 
 		    	  
 		    	  
 		  			
-		  		}
+		  		
 		   }      
 		
 
