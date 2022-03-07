@@ -22,8 +22,8 @@ public class principal {
 		System.out.println ("[4] Alterar Fornecedor");
 		System.out.println ("[5] Deletar Fornecedor");
 		System.out.println ("[6] Cadastrar Mercadoria");
-		System.out.println ("[7] Deletar Mercadoria");
-		System.out.println ("[8] Alterar Mercadoria");
+		System.out.println ("[7] Alterar Mercadoria");
+		System.out.println ("[8] Deletar Mercadoria");
 		System.out.println ("[9] Criar venda");
 		System.out.println ("[10] Alterar Venda");
 		System.out.println ("[11] Deletar venda");
@@ -32,7 +32,7 @@ public class principal {
 		numero = entrada.nextInt();
 		   
 		switch (numero) {
-		      case 1:
+		      Case 1:
 		    	  cliente NovoCliente = new cliente ();
 		    	  System.out.println ("Digite o nome do cliente:");
 		  		  NovoCliente.setNome(entrada.next());
@@ -44,23 +44,23 @@ public class principal {
 		  		  clientes.put( NovoCliente.getCPF(), NovoCliente);
 		  		  break;
 		  		  
-		      case 2:
+		      Case 2:
 		    	  System.out.println ("Faça a alteração nos dados do cliente.");
 		    	  cliente.Alteração();
 		    	  System.out.println ("A alteração nos dados do cliente concluida");
 		    	  break;
 		    
-		      case 3:
+		      Case 3:
 		    	  fornecedor Novofornecedor = new fornecedor ();
 		    	  System.out.println ("Digite o nome do fornecedor:");
-		  		  Novofornecedor.setNome(entrada.next());
-		  		  System.out.println ("Digite o CPF do fornecedor:");
-		  	      Novofornecedor.setCpf(entrada.nextInt());
-		  	      System.out.println ("Digite o telefone do fornecedor:");
-		  	      Novofornecedor.setTelefone(entrada.nextInt());
-		  	      System.out.println ("Fornecedor cadastrado com sucesso!");
-		  	      fornecedores.put( Novofornecedor.getNome(), Novofornecedor);
-		  	      break;
+		  		 Novofornecedor.setNome(entrada.next());
+		  		 System.out.println ("Digite o CPF do fornecedor:");
+		  	         Novofornecedor.setCpf(entrada.nextInt());
+		  	         System.out.println ("Digite o telefone do fornecedor:");
+		  	         Novofornecedor.setTelefone(entrada.nextInt());
+		  	         System.out.println ("Fornecedor cadastrado com sucesso!");
+		  	         fornecedores.put( Novofornecedor.getNome(), Novofornecedor);
+		  	         break;
 				
 		  	Case 4: 
 				System.out.println ("Faça a alteração nos dados do fornecedor.");
@@ -68,9 +68,14 @@ public class principal {
 				System.out.println ("Alteração nos dados do fornecedor concluída");
 		  		break;
 				
+			Case 5: 
+				System.out.println ("Faça o deletamento do fornecedor.");
+				fornecedor.Deletarfornecedor();
+	                        System.out.println ("Fornecedor deletado com sucesso!");
+				break;
 				
 				
-			case 6:
+			Case 6:
 		  	          mercadoria Novamercadoria = new mercadoria ();
 		    	          System.out.println ("Digite o nome da mercadoria:");
 		    	          Novamercadoria.setNome(entrada.next()); 
@@ -82,9 +87,14 @@ public class principal {
 		  		  mercadoria.put( Novamercadoria.getNome(), Novamercadoria);
 		  		  break;
 		  		  
+		  	Case 7:
+		                System.out.println ("Faça a alteração das mercadorias.");
+				mercadoria.Alteração();
+				System.out.println ("Alteração nos dados das mercadorias concluída");
+		  		break;
+		                
 		  	      
-		  	      
-		  	      case 9:
+		  	Case 9:
 		  	          vendas Novavenda = new vendas ();
 		    	          System.out.println ("Digite o nome do cliente que realizou a compra:");
 		    	          Novavenda.setNomedocomprador(entrada.next());
