@@ -116,7 +116,11 @@ public class principal {
 		System.out.println ("Muito obrigado, até a próxima!" );
 		    	  
 		    	 
-		    	  
+	Case 10: 
+				System.out.println ("Faça a alteração em uma venda.");
+				venda.Alteração();
+				System.out.println ("Alteração em uma venda concluída");
+		  		break;	    	  
 		    	  
 		  			
 		  		
