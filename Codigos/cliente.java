@@ -3,6 +3,7 @@ package CadastroCliente;
 import java.util.Scanner;
 import java.util.Set;
 
+// CODIGOS INVALIDOS (N√ÉO RODAR)
 // Codigos  atualizados 10/02 //
 
 public class cliente {
@@ -36,15 +37,15 @@ public class cliente {
 		this.endereco = endereco;
 	}
 	
-	public static void AlteraÁ„o () {
+	public static void Altera√ß√£o () {
 		
 		Scanner entrada = new Scanner (System.in);
-		System.out.println ("Digite o nome do cliente que deseja fazer a modificaÁ„o:");
+		System.out.println ("Digite o nome do cliente que deseja fazer a modifica√ß√£o:");
 		String nome1 = entrada.next();
 	    nome1.equals(cliente.getNome());
 		System.out.println ("O que deseja modificar?");
 		System.out.println ("[1] Nome");
-		System.out.println ("[2] endereÁo");
+		System.out.println ("[2] endere√ßo");
 		System.out.println ("[3] CPF"); 
 		System.out.println ("[4] sair do sistema");
 		int numero = entrada.nextInt();
@@ -57,9 +58,9 @@ public class cliente {
 		    	
 		
 		    if  (numero == 2) {
-		    	System.out.println (" digite o endereÁo modificado");
+		    	System.out.println (" digite o endere√ßo modificado");
 		    	endereco = entrada.next();
-		    	System.out.println (" EndereÁo modificado com sucesso!");
+		    	System.out.println (" Endere√ßo modificado com sucesso!");
 			
 		} 
 		    if  (numero == 3) {
