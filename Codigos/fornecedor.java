@@ -1,5 +1,6 @@
 public class fornecedor {
-
+               
+	//CODIGOS INVALIDOS (NÃO RODAR)//
 	
 	    private static String nome;
 	    private static int telefone;
