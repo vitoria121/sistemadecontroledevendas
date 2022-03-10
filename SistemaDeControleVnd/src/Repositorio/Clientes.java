@@ -1,7 +1,7 @@
 package Repositorio;
 import java.util.HashMap;
 import Cadastros.Cliente;
-import Cadastros.Fornecedor;
+
 
 public class Clientes {
 	
