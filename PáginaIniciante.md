@@ -18,4 +18,7 @@ Página do participante
 
 ### Comentários dos códigos
 | Os códigos que estão na pasta "SistemaDeControleVnd" já estão comentados.|
-| Nesse projeto contém três pacotes: Repositorio, Cadastros e Principal.|
+| Nesse projeto contém três pacotes: Repositorio, Cadastros e Principal.
+•	Pacote Cadastros: encontram-se as classes cliente, fornecedor, mercadoria e venda;
+•	Pacote repositórios: encontram-se os métodos e as hashmap das classes citadas anteriormente, e nesse pacote há as classes clientes, fornecedores, mercadorias e vendas que é as classes que possuem os métodos e as Hashmap;
+•	Principal: nesse pacote encontra-se a classe principal, a onde é realizado todos os procedimentos do projeto.|
