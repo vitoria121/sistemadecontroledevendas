@@ -18,3 +18,8 @@ PAPEL DE CADA MEMBRO:
 Glendah e Luciane – Organização de ideias para a formação do sistema;
 Luciane e Vitória – Reuniões realizadas com o proprietário do comércio;
 Lauanda e Mariane– Organização das informações coletadas.
+
+
+APRESENTAÇÃO FINAL:
+
+https://www.youtube.com/watch?v=F3Pv79_k7_Y
